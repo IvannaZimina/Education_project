@@ -1,17 +1,18 @@
-// --- TASK ---
-// Write a method, which takes in a phone number in a full format with a country code
-// and returns a corresponding country name as a String.
-// Add up to 10 countries which are relevant for our region.
-// Use the enhanced switch statement as an expression.
-// Write two versions of the method using method overloading for phone numbers in a String and a Long formats.
+/* --- TASK ---
+Write a method, which takes in a phone number in a full format with a country code and returns a corresponding country name as a String.
+Add up to 10 countries which are relevant for our region.
+Use the enhanced switch statement as an expression.
+Write two versions of the method using method overloading for phone numbers in a String and a Long formats.
+*/
 
 package challenge.task_3_switch;
 
 public class PhoneNumbers {
 
-    // Method accept phone number as String and returns a country name derived from the country code.
+    // Method accept phone number as String and returns a country name derived from
+    // the country code.
     public static String countryByPhone(String rawPhone) {
-        //  Validate input
+        // Validate input
         if (rawPhone == null) {
             return "Invalid phone";
         }
@@ -34,7 +35,7 @@ public class PhoneNumbers {
 
         // Extract the country code from the normalized number.
         String code = extractCountryCode(normalized);
-        
+
         // From task: Add up to 10 countries which are relevant for our region.
         // From task: Use the enhanced switch statement as an expression.
         String country = switch (code) {
@@ -82,7 +83,8 @@ public class PhoneNumbers {
             }
         }
 
-        // If the country code is not recognized, return an empty string or a default value.
+        // If the country code is not recognized, return an empty string or a default
+        // value.
         return "";
     }
 

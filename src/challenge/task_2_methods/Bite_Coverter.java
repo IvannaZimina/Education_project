@@ -1,8 +1,11 @@
-// Write a void method, which takes in a long variable,
-// representing the number of bytes in data,
-// which prints this number as a String using kilobytes, megabytes, gigabytes and terabytes.
+/* --- TASK ---
+Write a void method, which takes in a long variable,
+representing the number of bytes in data,
+which prints this number as a String using kilobytes, megabytes, gigabytes and terabytes.
+*/
 
 package challenge.task_2_methods;
+
 import java.util.Scanner;
 
 public class Bite_Coverter {
@@ -11,7 +14,7 @@ public class Bite_Coverter {
         Scanner sc = new Scanner(System.in); // Create a Scanner object
         long bytes;
 
-        // class works until user enter the valid value  (integer equal or more than 0)
+        // class works until user enter the valid value (integer equal or more than 0)
         while (true) {
             System.out.print("Enter the number of bytes (integer equal or more than 0): ");
             String input = sc.nextLine().trim();

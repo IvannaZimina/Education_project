@@ -1,7 +1,8 @@
-// --- TASK ---
-// Write a method, which takes in a date and returns a zodiac sign as a String.
-// Use the enhanced switch statement as an expression.
-// Write 3 different versions of the method using method overloading for different ways to pass in a date.
+/* --- TASK ---
+Write a method, which takes in a date and returns a zodiac sign as a String.
+Use the enhanced switch statement as an expression.
+Write 3 different versions of the method using method overloading for different ways to pass in a date.
+*/
 
 package challenge.task_3_switch;
 
@@ -144,10 +145,10 @@ public class ZodiacSigns {
 
             String trimmed = line.trim();
             String normalized = trimmed.replace(",", " ");
-            
+
             // split the data into parts by spaces, tabs, or transfers
             String[] parts = normalized.split("\\s+");
-            
+
             String result;
             if (parts.length == 3 && isAllInts(parts)) {
                 try {

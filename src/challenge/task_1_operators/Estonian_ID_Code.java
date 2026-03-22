@@ -1,11 +1,11 @@
-package challenge.task_1_operators;
-// wikist:
-//      isikukood = 11 numbrit;
-//      1.: sugu + sünnisajand (1–8);
-//      2.–7.: sünnikuupäev (AAKKPP);
-//      8.–10.: seerianumber;
-//      11.: kontrollnumber, arvutatud kaalutud algoritmi abil;
+/* wikist:
+    isikukood = 11 numbrit;
+    1.: sugu + sünnisajand (1–8);
+    2.–7.: sünnikuupäev (AAKKPP);
+    8.–10.: seerianumber;
+    11.: kontrollnumber, arvutatud kaalutud algoritmi abil; */
 
+package challenge.task_1_operators;
 // ülesandest: Saad sellest meetodi teha, kui see sulle mugav on.
 public class Estonian_ID_Code {
     private static int mod11Weighted(String id, int[] weights) {

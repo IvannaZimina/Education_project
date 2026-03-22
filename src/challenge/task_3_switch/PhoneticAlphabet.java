@@ -1,15 +1,14 @@
-// --- TASK ---
-// In this challenge, we'll be using the NATO phonetic alphabet to replace a character or letter,
-// with NATO's standardized word for that letter.
-// In radio transmissions, the word car, "C", "A", "R", would be read, "Charlie Alfa Romeo", for clarity.
-// We'll take a single character and return the matching word from the NATO phonetic alphabet, shown at the link below.
-// https://en.wikipedia.org/wiki/NATO_phonetic_alphabet
-// Create a new char variable.
-// Use the traditional switch statement (with a colon in case labels) that tests the value in the variable from Step 1.
-// Create cases for the characters.
-// Display a message in each case block, with the letter and the NATO word, then break.
-// Add a default block, which displays the letter with a message saying not found.
-
+/* --- TASK ---
+In this challenge, we'll be using the NATO phonetic alphabet to replace a character or letter, with NATO's standardized word for that letter.
+In radio transmissions, the word car, "C", "A", "R", would be read, "Charlie Alfa Romeo", for clarity.
+We'll take a single character and return the matching word from the NATO phonetic alphabet, shown at the link below.
+https://en.wikipedia.org/wiki/NATO_phonetic_alphabet
+Create a new char variable.
+Use the traditional switch statement (with a colon in case labels) that tests the value in the variable from Step 1.
+Create cases for the characters.
+Display a message in each case block, with the letter and the NATO word, then break.
+Add a default block, which displays the letter with a message saying not found.
+*/
 
 package challenge.task_3_switch;
 

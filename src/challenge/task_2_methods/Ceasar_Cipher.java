@@ -1,9 +1,11 @@
-// Write a method,which takes in a String with a message and
-// returns a String with the message encrypted by the Ceasar cipher method.
-// Create two versions of this method.
-// In the first version,the Caesar shift is provided as an int as a second parameter and
-// in the second version some shift value is used automatically inside the method.
-// For the algorithm details visit this page:https://en.wikipedia.org/wiki/Caesar_cipher
+/* --- TASK ---
+Write a method,which takes in a String with a message and
+returns a String with the message encrypted by the Ceasar cipher method.
+Create two versions of this method.
+In the first version,the Caesar shift is provided as an int as a second parameter and
+in the second version some shift value is used automatically inside the method.
+For the algorithm details visit this page:https://en.wikipedia.org/wiki/Caesar_cipher
+*/
 
 package challenge.task_2_methods;
 
@@ -51,7 +53,7 @@ public class Ceasar_Cipher {
                 int newPos = (pos + k) % 26; // calculate the new position after shifting
                 char enc = (char) ('A' + newPos); // convert the new position back to a character
                 sb.append(enc); // add the encrypted character to the result
-                
+
                 // check if the character is a lowercase letter (a-z)
             } else if (ch >= 'a' && ch <= 'z') {
                 int pos = ch - 'a'; // get the position of the letter in the alphabet (0-25)

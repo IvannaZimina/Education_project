@@ -1,8 +1,10 @@
-// Task:
-// Write a method,which takes in an int variable with an exam score and
-// returns a grade from“A”to“F”according to a European university grade system.
+/* --- TASK ---
+Write a method,which takes in an int variable with an exam score and
+returns a grade from“A”to“F”according to a European university grade system.
+*/
 
 package challenge.task_2_methods;
+
 // W3 docs: The Scanner class is used to get user input, and it is found in the java.util package.
 import java.util.Scanner;
 
@@ -16,7 +18,7 @@ public class Exam_Grade {
         do {
             System.out.print("Enter grade (0..100): ");
             String user_input = myObj.nextLine(); // Read user input as a String
-            
+
             try {
                 score = Integer.parseInt(user_input);
 
@@ -37,11 +39,17 @@ public class Exam_Grade {
     }
 
     private static String gradeByIfElse(int score) {
-        if (score >= 90) return "A";
-        else if (score >= 80) return "B";
-        else if (score >= 70) return "C";
-        else if (score >= 60) return "D";
-        else if (score >= 50) return "E";
-        else return "F";
+        if (score >= 90)
+            return "A";
+        else if (score >= 80)
+            return "B";
+        else if (score >= 70)
+            return "C";
+        else if (score >= 60)
+            return "D";
+        else if (score >= 50)
+            return "E";
+        else
+            return "F";
     }
 }
