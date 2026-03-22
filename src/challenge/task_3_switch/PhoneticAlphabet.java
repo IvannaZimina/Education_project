@@ -11,7 +11,7 @@
 // Add a default block, which displays the letter with a message saying not found.
 
 
-package challenge.task3;
+package challenge.task_3_switch;
 
 import java.util.Scanner;
 

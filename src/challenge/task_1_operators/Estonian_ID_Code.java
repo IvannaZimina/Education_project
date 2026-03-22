@@ -1,4 +1,4 @@
-package challenge.task1;
+package challenge.task_1_operators;
 // wikist:
 //      isikukood = 11 numbrit;
 //      1.: sugu + sünnisajand (1–8);

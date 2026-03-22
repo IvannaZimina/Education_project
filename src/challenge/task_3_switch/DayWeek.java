@@ -10,7 +10,7 @@
 // In the main method, call this method for the values 0 through 7.
 
 
-package challenge.task3;
+package challenge.task_3_switch;
 
 public class DayWeek {
 

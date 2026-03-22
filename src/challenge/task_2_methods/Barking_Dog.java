@@ -5,7 +5,7 @@
 // We must wake up if the dog is barking before 8 or after 22 hours so in that case return true.
 // In all other cases return false.If the hourOfDay parameter is less than 0 or greater than 23 return false.
 
-package challenge.task2;
+package challenge.task_2_methods;
 
 public class Barking_Dog {
     

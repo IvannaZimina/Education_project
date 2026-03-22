@@ -9,7 +9,7 @@
 // Both methods should return a real number or decimal value for total height in centimeters.
 // Call both methods and print out the results.
 
-package challenge.task2;
+package challenge.task_2_methods;
 
 public class Unit_Converter {
 

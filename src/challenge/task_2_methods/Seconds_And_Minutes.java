@@ -10,7 +10,7 @@
 // The first method should in turn call the second method to return its results.
 // Add input validation to the methods as a bonus.
 
-package challenge.task2;
+package challenge.task_2_methods;
 
 public class Seconds_And_Minutes {
     public static void main(String[] args) {

@@ -2,7 +2,7 @@
 // Write two methods which would convert euros to any European currency which is not a euro and vice versa.
 // Methods should take in an amount of money as a Double and a currency label as a String.
 
-package challenge.task3;
+package challenge.task_3_switch;
 
 public class CurrencyRates {
 

@@ -2,7 +2,7 @@
 // representing the number of bytes in data,
 // which prints this number as a String using kilobytes, megabytes, gigabytes and terabytes.
 
-package challenge.task2;
+package challenge.task_2_methods;
 import java.util.Scanner;
 
 public class Bite_Coverter {
